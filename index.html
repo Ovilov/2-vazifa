@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4.2-dars</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1 class="title">4-oy 2-dars</h1>
+    <h3>Data types</h3>
+    <ol>
+      <li><b>Number</b>- 1,2,8,0.6</li>
+      <li><b>String</b>- ' ' | " " | ` `</li>
+      <li><b>Boolean</b>- true, false</li>
+      <li><b>Null</b>- null</li>
+      <li><b>Undefined</b>- undefined</li>
+      <li><b>Bigint</b>- 8n</li>
+      <li><b>Symbol()</b>- symbol()</li>
+      <li><b>Objekt</b>- funcion | Array [] | Object {}</li>
+    </ol>
+    <h3>Variables</h3>
+    <ol>
+      <li>
+        <p>
+          <b>let</b>- bu var o'rnidagi zamonaviy o'zgaruvchi e'lon qilish usuli
+          bo'lib, <code>let</code> da e'lon qilingan ma'lumotni o'zgaruvchi nomi
+          bilan qayta o'zgartirish mumkin.
+        </p>
+        <p>
+          <code>let b = 10;</code>
+          <br />
+          <code>b = 11;</code>
+        </p>
+        <p>
+          <span>Bunday qilish mumkin emas;</span>
+          <br />
+          <code>let b = 12;</code>
+        </p>
+      </li>
+      <li>
+        <p>
+          <b>var *</b>- bu eskirgan o'zgaruvchi e'lon qilish usuli bo'lib, bir
+          xil o'zgaruvchini bir necha martta e'lon qilish mumkin.
+          <br />
+          <code class="code">
+            var a = 3; <br />
+            var a = 5;<br />
+          </code>
+          lekin <code>const</code> va <code>let</code> da bu mumkin emas!
+        </p>
+        <p>
+          <code>var</code> ni o'zidan oldin ishlatish mumkin va javob -
+          <code>undefined</code><br /><code>console.log(a)//undefined</code
+          ><br />
+          <code>var a = 5</code>
+        </p>
+      </li>
+      <li>
+        <p>
+          <b>const</b>- bu o'zgaruvchiga berilgan qiymatni <code>var</code> va
+          <code>let</code> kabi qayta o'zgartirib bo'lmaydi.
+        </p>
+        <p>
+          Shuningdek, <code>const</code> ga doim boshlang'ich qiymat berilish
+          shart !
+        </p>
+      </li>
+    </ol>
+    <hr />
+    <h2>O'zgaruvchilarni nomlash - name convension</h2>
+    <p>Har qanday o'zgaruvchi $ yoki _ bilan boshlanishi mumkin</p>
+    <ul>
+      <li>Raqam bilan boshlanmaydi</li>
+      <li>katta haftlar turli xil xisoblandi. (key sensitive)</li>
+      <li>- bilan ishlash mumkin emas. <code>let my-name</code></li>
+      <li>
+        <p>
+          barcha turadgi so'zlarni ham o'zagaruvchi nomiga berib bo'lmaydi, JSda
+          band qilingan so'zlar bor.
+        </p>
+        <img
+          src="https://www.c-sharpcorner.com/UploadFile/BlogImages/12032012235151PM/JavascriptChart.png"
+          width="500"
+          alt=""
+        />
+      </li>
+    </ul>
+    <hr />
+    <h2>Nameing convensions</h2>
+    <ul>
+      <li>Camelcase - <b>biz asosan foydalanamiz !</b></li>
+      <li>Snakecase</li>
+      <li>Kabakcase</li>
+      <li>
+        <img
+          src="https://miro.medium.com/v2/resize:fit:640/1*FDWZfGKTXzTlrORkbqi04w.png"
+          width="300"
+          alt=""
+        />
+      </li>
+    </ul>
+    <hr />
+    <script src="./app.js"></script>
+  </body>
+</html>
